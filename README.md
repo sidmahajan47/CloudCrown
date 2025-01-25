@@ -25,7 +25,7 @@
 ## 🚀 Installation  
 1. **Clone the repo**:  
    ```bash
-   git clone
+   git clone https://github.com/sidmahajan47/CloudCrown.git
    ```
    ```bash
    cd CloudCrown
