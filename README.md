@@ -40,4 +40,12 @@
    ```bash
    flask run
    ```
- 
+ ---
+ ## 📱 Contact
+
+If you have any questions, suggestions, or feedback, feel free to reach out:
+
+- **Email**: [sidmahajan47@gmail.com](mailto:sidmahajan47@gmail.com)
+- **GitHub**: [sidmahajan47](https://github.com/sidmahajan47)
+- **LinkedIn**: [Siddhesh Mahajan](https://www.linkedin.com/in/siddheshmahajan47/)
+---
