@@ -32,13 +32,10 @@
    ```
 2. **Setup Backend**:
    ```bash
-   cd backend
-   ```
-   ```bash
    pip install -r requirements.txt
    ```
    ```bash
-   flask run
+   python app.py
    ```
  ---
  ## 📱 Contact
