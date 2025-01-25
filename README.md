@@ -1,8 +1,7 @@
-# 🌧️ CyberWeather ☔  
+# 🌧️ CloudCrown ☔  
 **A cyberpunk-themed weather app that brings the future to your forecast.**  
-
-![Demo](https://via.placeholder.com/800x400.png?text=CyberWeather+Demo) *Replace with actual screenshot*  
-
+---
+![Cloudcrown](https://github.com/user-attachments/assets/33092b86-9635-4d04-bd1c-401b8d29e093)
 ---
 
 ## 🚀 Features  
@@ -29,7 +28,7 @@
    git clone
    ```
    ```bash
-   cd cyberweather
+   cd CloudCrown
    ```
 2. **Setup Backend**:
    ```bash
