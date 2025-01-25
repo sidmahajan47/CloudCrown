@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudCrown - Cyberpunk Weather</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">CloudCrown_</h1>
+        
+        
+        <div class="search-form">
+            <input type="text" id="location" class="search-input" 
+                   placeholder="ENTER LOCATION_">
+            <button class="search-button">[SCAN]</button>
+        </div>
+
+        
+        <div id="error" class="error-banner"></div>
+
+        
+        <div id="loading" class="loading"></div>
+
+        
+        <div id="weatherCard" class="weather-card">
+            <div class="weather-header">
+                <h2 id="locationName" class="location-name"></h2>
+                <button class="unit-toggle">UNIT_SWITCH</button>
+            </div>
+
+            <div class="weather-main">
+                <img id="weatherIcon" class="weather-icon" alt="Weather Icon">
+                <div>
+                    <div class="temperature">
+                        <span id="temperature"></span>
+                        <span id="unit">°C</span>
+                    </div>
+                    <div id="condition" class="condition"></div>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <div class="detail-label">HUMIDITY_</div>
+                    <div id="humidity" class="detail-value"></div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">WIND_SPD</div>
+                    <div id="windSpeed" class="detail-value"></div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">FEELS_</div>
+                    <div id="feelsLike" class="detail-value"></div>
+                </div>
+            </div>
+
+            <div class="air-quality-section">
+                <div class="air-quality-label">AIR_QUALITY_INDEX</div>
+                <div id="airQuality" class="air-quality-badge"></div>
+            </div>
+        </div>
+
+        <div class="credits">
+            > SYSTEM_ADMIN: Siddhesh Mahajan(ANoNsid)
+
+            <br>
+            <br>
+            > STATUS: ONLINE_
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html> 
